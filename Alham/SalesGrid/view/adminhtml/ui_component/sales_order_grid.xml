@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+
+    <columns name="sales_order_columns">
+
+     <!-- sales_order_address post_code -->
+        <column name="telephone">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Phone Number</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="align" xsi:type="string">right</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <!--<item name="bodyTmpl" xsi:type="string">ui/grid/cells/html</item>-->
+                </item>
+            </argument>
+        </column>
+        <column name="sku">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">sku</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="align" xsi:type="string">right</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <!--<item name="bodyTmpl" xsi:type="string">ui/grid/cells/html</item>-->
+                </item>
+            </argument>
+        </column>
+       <column name="region">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">city</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="align" xsi:type="string">right</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <!--<item name="bodyTmpl" xsi:type="string">ui/grid/cells/html</item>-->
+                </item>
+            </argument>
+        </column>
+        <column name="comment">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">comment</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="align" xsi:type="string">right</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <!--<item name="bodyTmpl" xsi:type="string">ui/grid/cells/html</item>-->
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>
