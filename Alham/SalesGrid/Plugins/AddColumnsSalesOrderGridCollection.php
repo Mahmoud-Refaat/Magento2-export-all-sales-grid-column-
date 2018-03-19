@@ -28,7 +28,7 @@
                     ["soa" => "sales_order_address"],
                     'main_table.entity_id = soa.parent_id AND soa.address_type="billing"',
                     array('telephone' ,'region')
-                )->join(
+                )->joinLeft(
                     ["sosh" => "sales_order_status_history"],   
                     'main_table.entity_id = sosh.parent_id',
                      ['comment' => 'GROUP_CONCAT(DISTINCT sosh.comment)'
