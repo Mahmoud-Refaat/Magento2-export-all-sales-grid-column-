@@ -2,7 +2,7 @@
 		namespace Alham\SalesGrid\Plugins;
 		use Magento\Framework\Message\ManagerInterface as MessageManager;
 		use Magento\Sales\Model\ResourceModel\Order\Grid\Collection as SalesOrderGridCollection;
-		class AddColumnsSalesOrderGridCollection
+		class AddColumns
 		{
 		private $messageManager;
 		private $collection;
